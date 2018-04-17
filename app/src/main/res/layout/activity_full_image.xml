@@ -4,19 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="goltsov.roman.galleryforyandexschool.Main"
-    tools:showIn="@layout/app_bar_main">
+    tools:context="goltsov.roman.galleryforyandexschool.FullImageActivity">
 
-    <GridView
-        android:id="@+id/grid_view"
+
+    <ImageView
+        android:id="@+id/full_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:columnWidth="150dp"
-        android:horizontalSpacing="5dp"
-        android:numColumns="auto_fit"
-        android:stretchMode="columnWidth"
-        android:verticalSpacing="5dp" />
+        android:scaleType="center" />
+
 </RelativeLayout>
